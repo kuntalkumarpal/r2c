@@ -26,6 +26,13 @@ Recognition to Cognition Networks
 
 * conda install pytorch torchvision cudatoolkit=9.0 -c pytorch
 
+## Checks 
+* >>> torch.__version__  
+'1.1.0'  
+* >>> torchvision.__version__   
+'0.3.0'  
+* Currently Loaded Modulefiles:  
+  1) cudnn/7.0         2) anaconda3/5.3.0   3) cuda/9.0.176  
 ## Adding other file (Follow rowan's data folder README)
 
 * Image and annots files addition
@@ -44,7 +51,7 @@ Recognition to Cognition Networks
 
 
 ## Current Issue/Status :
-* Running for 1 hr and then giving memory error
+* Running for 1 hr and then giving memory error  
 Warning ⚠️ (Need to solve this issue)
 
 /home/kkpal/.conda/envs/r2cw/lib/python3.6/site-packages/torch/nn/_reduction.py:46: UserWarning: size_average and reduce args will be deprecated, please use reduction='mean' instead.
